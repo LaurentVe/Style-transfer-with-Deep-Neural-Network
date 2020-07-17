@@ -1,5 +1,6 @@
 # Style-transfer-with-Deep-Neural-Network
-Use pre-trained VGG19 feature extractor section to apply style transfer to given image
+Use pre-trained VGG19 feature extractor section to apply style transfer to given image.
+THis notebook is part of Udacity's Deep Learning Nanodegree
 
 ## Description
 In this notebook, i recreate style transfer method described in the paper "Image Style Transfer Using CNN" by Gatys.
