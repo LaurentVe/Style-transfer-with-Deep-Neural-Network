@@ -49,9 +49,9 @@ More explanations are provided in the notebook.
 
 
 ## Installation
-- download the repository
-- insert your own style and content images in the "images" folder
-- adjust the names of the images in the following line of codes:
+- Download the repository
+- Insert your own style and content images in the "images" folder
+- Adjust the names of the images in the following line of codes:
 
 `content = load_image('images/tour_eiffel.jpg').to(device)`
 
@@ -60,6 +60,8 @@ More explanations are provided in the notebook.
 - Give a name to the target image in this line of code. It will be saved in the working folder:
 
 `im.save('eiffel_pic2.jpeg')`
+
+- Run and follow the notebook
 
 Note:
 - the style image is forced to be of the same shape as the content image: `shape=content.shape[-2:]`
