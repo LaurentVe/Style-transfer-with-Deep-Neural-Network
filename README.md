@@ -27,8 +27,8 @@ Two input images are used, one for the style, one for the content. A copy of the
 The feature extractor is used to extract style artifacts and content of given images. To get the content and style representations of an image, we pass an image forward through the VGG19 network until we get to the desired layers and then get the output from that layer.
 
 Different layers through the model are used to provide the style artifacts and the content.
-- Content: output of the Conv 4.2, ie the convolutional layer N°2 in the stack N°4.
-- Style: weighted ouputs of the first conv layer in each of the 5 stacks.
+- Content: output of the Conv 4.2, ie the convolutional layer N°2 in the stack N°4 (higher level features deeper into the CNN)
+- Style: weighted ouputs of the first conv layer in each of the 5 stacks (lower lever features)
 
 Ponderation weigths can be modified in the notebook.
 
