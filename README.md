@@ -67,6 +67,6 @@ Note:
 
 ## Results
 
-![](/notebook_ims/eiffel2_pic.jpeg)
+![](/notebook_ims/eiffel_pic2.jpeg)
 
 ![](/notebook_ims/essec_pic.jpeg)
